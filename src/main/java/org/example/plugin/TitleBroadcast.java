@@ -25,7 +25,7 @@ public class TitleBroadcast{
         FormattedMessage message = new FormattedMessage();
         message.rawText = text;
         Message subtitle = new Message(message);
-        EventTitleUtil.showEventTitleToPlayer(playerRef, TITLE, subtitle, true);
+        EventTitleUtil.showEventTitleToPlayer(playerRef,subtitle, TITLE, true);
 
     }
 
